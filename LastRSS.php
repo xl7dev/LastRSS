@@ -59,7 +59,7 @@ class lastRSS
     // Private variables
     // -------------------------------------------------------------------
     var $channeltags = array('title', 'link', 'description', 'language', 'copyright', 'managingEditor', 'webMaster', 'lastBuildDate', 'rating', 'docs', 'name', 'email', 'subtitle');
-    var $itemtags = array('title', 'link', 'description', 'author', 'category', 'comments', 'enclosure', 'guid', 'pubDate', 'source', 'content:encoded', 'dc:creator', 'wfw:commentRss', 'slash:comments', 'feedburner:origLink', 'summary', 'published');
+    var $itemtags = array('title', 'link', 'description', 'author', 'category', 'comments', 'enclosure', 'guid', 'pubDate', 'source', 'content', 'content:encoded', 'dc:creator', 'wfw:commentRss', 'slash:comments', 'feedburner:origLink', 'summary', 'published');
     var $item_tag_href_attributes = array('alternate', 'via');
     var $imagetags = array('title', 'url', 'link', 'width', 'height', 'logo');
     var $textinputtags = array('title', 'description', 'name', 'link');
